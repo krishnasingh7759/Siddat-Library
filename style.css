@@ -1,47 +1,59 @@
 body {
-  background-color: #f5f7fb;
-  font-family: Arial, sans-serif;
+  background: #f2f6ff;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
 /* Navbar */
 .navbar {
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
 }
-
 .navbar-brand {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
 }
-
 .nav-link {
   font-weight: 600;
 }
-
 .nav-link:hover {
-  color: #ffeb3b !important;
+  color: #ffd700 !important;
 }
 
-/* Hero Section */
+/* Hero */
 .hero {
-  background: linear-gradient(120deg, #ff512f, #dd2476);
+  background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  padding: 50px;
-  border-radius: 15px;
+  padding: 60px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+/* Section box */
+.section-box {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
 }
 
 /* Cards */
 .card {
-  border-radius: 15px;
   border: none;
+  border-radius: 20px;
   background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #000;
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
 }
 
 /* Footer */
 footer {
-  background: #212529;
+  background: linear-gradient(90deg, #141e30, #243b55);
   color: white;
-  padding: 15px;
-  border-radius: 15px;
+  padding: 20px;
+  border-radius: 20px;
   margin-top: 40px;
   text-align: center;
 }
