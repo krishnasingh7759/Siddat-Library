@@ -1,6 +1,9 @@
+/* Body & fonts */
 body {
-  background: #f2f6ff;
   font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
@@ -18,42 +21,67 @@ body {
   color: #ffd700 !important;
 }
 
-/* Hero */
+/* Hero Section */
 .hero {
   background: linear-gradient(135deg, #667eea, #764ba2);
   color: white;
-  padding: 60px;
+  padding: 60px 20px;
   border-radius: 20px;
   margin-bottom: 30px;
-}
-
-/* Section box */
-.section-box {
-  background: white;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Cards */
 .card {
-  border: none;
   border-radius: 20px;
   background: linear-gradient(135deg, #89f7fe, #66a6ff);
   color: #000;
   transition: transform 0.3s;
+  margin-bottom: 20px;
 }
 .card:hover {
   transform: translateY(-10px);
+}
+
+/* Section boxes */
+.section-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 /* Footer */
 footer {
   background: linear-gradient(90deg, #141e30, #243b55);
   color: white;
-  padding: 20px;
+  padding: 25px;
+  text-align: center;
   border-radius: 20px;
   margin-top: 40px;
-  text-align: center;
+}
+
+/* Images */
+.img-fluid {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Forms */
+.form-control {
+  border-radius: 10px;
+}
+textarea.form-control {
+  resize: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 15px;
+  }
+  .section-box {
+    padding: 20px;
+  }
 }
