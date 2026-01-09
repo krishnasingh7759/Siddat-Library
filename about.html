@@ -3,23 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About | Siddat Library</title>
+<title>About Siddat Library</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<style>
+  body { font-family: Arial, sans-serif; background: #f8f9fa; color: #333; }
+  .hero { background: #4a6fa5; color: white; padding: 60px 20px; text-align: center; border-radius: 10px; }
+  .section-box { background: white; padding: 30px; border-radius: 10px; margin: 30px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+  footer { background: #203a43; color: white; text-align: center; padding: 20px; border-radius: 8px; margin-top: 30px; }
+  h2 { color: #203a43; font-weight: bold; }
+</style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark shadow">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background: #203a43;">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">📚 Siddat Library</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="menu">
+    <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -28,55 +34,79 @@
   </div>
 </nav>
 
-<div class="container mt-4">
+<div class="container">
 
-<div class="section-box">
-<h2>About Siddat Library</h2>
-<p>
-Siddat Library was founded to provide students a calm, comfortable, and 
-disciplined environment for study. It supports academic learning and 
-competitive exam preparation.
-</p>
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>About Siddat Library</h1>
+    <p>Your trusted place for focused study, learning, and community growth</p>
+  </div>
 
-<h3>Vision</h3>
-<p>To be the most trusted and student-friendly library in Madhubani district.</p>
+  <!-- What is Siddat Library -->
+  <div class="section-box">
+    <h2>What Is Siddat Library?</h2>
+    <p>
+      Siddat Library is a peaceful and welcoming educational space where students,
+      professionals, and lifelong learners come together to read, study, and grow
+      intellectually. Located in Khutauna Bazar, Madhubani, Siddat Library is
+      committed to fostering learning, focus, and continuous improvement.
+    </p>
+  </div>
 
-<h3>Mission</h3>
-<ul>
-<li>Provide affordable study space</li>
-<li>Maintain latest books & newspapers</li>
-<li>Offer long, distraction-free study hours</li>
-<li>Help students achieve academic excellence</li>
-</ul>
+  <!-- Why It Matters -->
+  <div class="section-box">
+    <h2>Why Siddat Library Matters</h2>
+    <p>
+      In today’s fast-paced world, a dedicated learning environment is essential. Siddat
+      Library provides a calm, distraction-free space where students can:
+    </p>
+    <ul>
+      <li>Study with full concentration</li>
+      <li>Access a growing collection of books and magazines</li>
+      <li>Prepare for exams with focused routines</li>
+      <li>Feel motivated by a community of learners</li>
+    </ul>
+  </div>
 
-<h3>Owner's Message</h3>
-<p>
-“My goal is to help students reach their potential by providing them a dedicated space
-for focused learning and academic growth.”
-</p>
-<b>— Pankaj Kumar Singh</b>
-</div>
+  <!-- How It Works -->
+  <div class="section-box">
+    <h2>How Siddat Library Works</h2>
+    <p>
+      Using Siddat Library is straightforward:
+    </p>
+    <ol>
+      <li>Become a member by signing up at the library counter</li>
+      <li>Select books from our diverse collection</li>
+      <li>Use the study hall to read and prepare</li>
+      <li>Return books on time and renew when needed</li>
+    </ol>
+  </div>
 
-<div class="section-box">
-<h3>History</h3>
-<p>
-Siddat Library started as a small initiative in Khutauna Bazar, Madhubani. Over the
-years, it has grown to support hundreds of students preparing for school, college, 
-and competitive exams.
-</p>
+  <!-- Who Can Join -->
+  <div class="section-box">
+    <h2>Who Can Join?</h2>
+    <p>
+      Siddat Library is open to all students, competitive exam aspirants, professionals,
+      and anyone eager to learn and read. Whether you are preparing for exams or
+      pursuing personal learning goals, you are welcome here.
+    </p>
+  </div>
 
-<h3>Why Siddat Library?</h3>
-<ul>
-<li>Strict silence and discipline for focused learning</li>
-<li>Friendly environment for students</li>
-<li>Wide range of books and journals</li>
-<li>Affordable membership plans</li>
-</ul>
-</div>
+  <!-- Testimonials -->
+  <div class="section-box">
+    <h2>What Students Say</h2>
+    <p>
+      “This library helped me maintain my focus and build a routine.” — *Rahul, Student*
+    </p>
+    <p>
+      “A calm and productive place to study.” — *Priya, UPSC Aspirant*
+    </p>
+  </div>
 
-<footer>
-📞 7091717346 | 📧 siddatlibrary07@gmail.com | 📍 Khutauna Bazar, Madhubani – 847227
-</footer>
+  <!-- Contact Info -->
+  <footer>
+    📍 Siddat Library, Khutauna Bazar, Madhubani – 847227 | 📞 7091717346 | 📧 siddatlibrary07@gmail.com
+  </footer>
 
 </div>
 
