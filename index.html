@@ -5,74 +5,167 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Siddat Library | Home</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+/* Navbar */
+.navbar {
+  background: #203a43;
+}
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/lib1.jpg') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  font-size: 20px;
+  position: relative;
+}
+.hero h1 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.hero .overlay {
+  position: absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: rgba(0,0,0,0.5);
+}
+.hero .hero-content {
+  position: relative;
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.section h2 {
+  color: #203a43;
+  margin-bottom: 15px;
+}
+.section ul, .section ol {
+  margin-left: 20px;
+}
+
+/* Footer */
+footer {
+  background: #203a43;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+</style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark shadow">
+<nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">📚 Siddat Library</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+    <a class="navbar-brand" href="#">📚 Siddat Library</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#what">What Is</a></li>
+        <li class="nav-item"><a class="nav-link" href="#why">Why It Helps</a></li>
+        <li class="nav-item"><a class="nav-link" href="#expect">What To Expect</a></li>
+        <li class="nav-item"><a class="nav-link" href="#join">Who Can Join</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="container mt-4">
-
+<!-- Hero -->
 <div class="hero">
-  <h1>Welcome to Siddat Library</h1>
-  <p>A perfect place for focused study & competitive exam preparation</p>
-  <a href="contact.html" class="btn btn-warning btn-lg mt-3">Join Now</a>
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1>Study, Focus & Grow at Siddat Library</h1>
+    <p>A peaceful space for deep learning and academic success</p>
+  </div>
 </div>
 
-<div class="section-box">
-<h3>Why Choose Siddat Library?</h3>
-<div class="row">
-  <div class="col-md-3"><div class="card p-4 text-center">Silent Study Area</div></div>
-  <div class="col-md-3"><div class="card p-4 text-center">Latest Books</div></div>
-  <div class="col-md-3"><div class="card p-4 text-center">Affordable Fees</div></div>
-  <div class="col-md-3"><div class="card p-4 text-center">Long Study Hours</div></div>
-</div>
-</div>
+<div class="container">
 
-<div class="section-box">
-<h3>Benefits for Students</h3>
-<ul>
-<li>Improves concentration and focus</li>
-<li>Supports competitive exam preparation</li>
-<li>Builds daily study discipline</li>
-<li>Encourages group discussions outside reading area</li>
-<li>Access to latest newspapers & journals</li>
-</ul>
-</div>
+  <!-- What Is Siddat Library -->
+  <div id="what" class="section">
+    <h2>What Is Siddat Library?</h2>
+    <p>
+      Siddat Library is a dedicated study space in Khutauna Bazar, Madhubani, where students and learners gather
+      to read books, prepare for exams, and build strong study habits in a calm, distraction-free environment.
+    </p>
+  </div>
 
-<div class="section-box">
-<h3>Library Rules</h3>
-<ol>
-<li>Maintain silence inside the library</li>
-<li>Mobile phones must be on silent mode</li>
-<li>No food or drinks inside</li>
-<li>Keep books and materials organized</li>
-<li>Follow library timing strictly</li>
-</ol>
+  <!-- Why It Helps -->
+  <div id="why" class="section">
+    <h2>Why It Helps</h2>
+    <p>
+      Consistency and focus are key to academic success. At Siddat Library, studying in a structured environment with
+      others helps improve discipline, concentration, and progress.
+    </p>
+    <ul>
+      <li>Calm, quiet study atmosphere</li>
+      <li>Structured reading and preparation space</li>
+      <li>Motivation through community energy</li>
+      <li>Access to academic and competitive materials</li>
+    </ul>
+  </div>
+
+  <!-- What You Can Expect -->
+  <div id="expect" class="section">
+    <h2>What You Can Expect</h2>
+    <p>From Siddat Library:</p>
+    <ul>
+      <li>Comfortable seating and lighting for long study sessions</li>
+      <li>A well-organized collection of books and journals</li>
+      <li>Focus areas for quiet reading and writing</li>
+      <li>Flexible study times to suit your schedule</li>
+    </ul>
+  </div>
+
+  <!-- Who Can Join -->
+  <div id="join" class="section">
+    <h2>Who Can Join?</h2>
+    <p>
+      Siddat Library welcomes:
+    </p>
+    <ul>
+      <li>School and college students</li>
+      <li>Competitive exam aspirants (SSC, Banking, UPSC, BPSC, etc.)</li>
+      <li>Researchers and lifelong learners</li>
+      <li>Anyone who loves reading and focused study</li>
+    </ul>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="section">
+    <h2>What Students Say</h2>
+    <p>“Siddat Library helped me stay focused and study longer every day.” — *Rahul*</p>
+    <p>“A quiet and supportive place for exam preparation.” — *Priya*</p>
+  </div>
+
 </div>
 
 <footer>
-Owner: Pankaj Kumar Singh | 📞 7091717346 | 📧 siddatlibrary07@gmail.com | 📍 Khutauna Bazar, Madhubani – 847227
+📍 Siddat Library, Khutauna Bazar, Madhubani – 847227 | 📞 7091717346 | 📧 siddatlibrary07@gmail.com
 </footer>
-
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
